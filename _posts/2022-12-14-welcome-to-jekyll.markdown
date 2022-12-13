@@ -1,18 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Elasticsearch Getting Started with Go"
 date:   2022-12-14 06:09:25 +0700
-categories: jekyll update
+categories: elasticsearch
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+{% include image.html url="/assets/images/gopher-x-es.png" %} 
 
-`YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
+Hi everyone, this is my first article that shares how to get started with Elasticsearch using Go. It covers building a simple HTTP server that can perform basic CRUD operations. After reading this article, I hope you can develop cool projects with Elasticsearch x Go. So, without any further ado, let’s Go for it!
 
 {% highlight ruby %}
 def print_hi(name)
