@@ -1,0 +1,14 @@
+# Everything here is meant to be read, by people and by machines.
+#
+# AI crawlers are allowed on purpose, decided 2026-09-21. GPTBot, ClaudeBot, PerplexityBot,
+# Google-Extended and the rest fall under the rule below. The writing exists to be found, and an
+# assistant that quotes it sends readers back. This is a choice, not an oversight: to change it,
+# add a named User-agent block above the catch-all.
+#
+# Lives in public/ for the same reason CNAME does. publish-site.mjs clears the published clone on
+# every run, so a file that is not part of the build disappears from the live site.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://juliardifh.com/sitemap.xml
